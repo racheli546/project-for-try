@@ -2,103 +2,101 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Simple Project</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f4f7f6;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #fefefe;
       margin: 0;
       padding: 0;
       color: #333;
-      line-height: 1.6;
     }
 
-    h1, h2, h3, h4, h5, h6 {
-      text-align: center;
-      margin: 10px;
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
     }
 
     h1 {
-      font-size: 3rem;
-      color: #6a7dff;
-      font-weight: 600;
-      margin-top: 50px;
+      font-size: 2.8rem;
+      color: #5d8aa8;
+      margin-bottom: 10px;
     }
 
     h2 {
       font-size: 2rem;
-      color: #7f8c8d;
+      color: #88bdbc;
+      margin-bottom: 30px;
     }
 
     h3, h4, h5, h6 {
-      color: #34495e;
-      font-weight: 400;
-      margin-bottom: 15px;
+      color: #444;
+      font-weight: normal;
+      margin: 15px 0;
     }
 
-    .intro {
+    .card {
       background-color: #ffffff;
-      margin: 40px 15%;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      margin-bottom: 20px;
     }
 
-    .contact-info {
-      background-color: #ffffff;
-      margin-top: 40px;
-      padding: 20px;
-      border-radius: 5px;
+    .contact {
       text-align: center;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .contact-info a {
-      color: #6a7dff;
+      background-color: #f0f4f8;
+      padding: 15px;
+      border-radius: 8px;
       font-size: 1.1em;
-      text-decoration: none;
-      font-weight: 500;
     }
 
-    .contact-info a:hover {
+    .contact a {
+      color: #5d8aa8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact a:hover {
       text-decoration: underline;
     }
 
-    .footer {
+    footer {
       text-align: center;
       margin-top: 40px;
-      padding: 20px;
-      background-color: #ecf0f1;
-      font-size: 1rem;
-      color: #7f8c8d;
+      color: #999;
+      font-size: 0.9em;
     }
   </style>
 </head>
 
 <body>
+  <div class="container">
+    <h1>Hello, world!</h1>
+    <h2>Welcome to my simple project</h2>
 
-  <h1>Hello, world!</h1>
-  <h2>Welcome to my simple project</h2>
+    <div class="card">
+      <h3>I am looking for a job.</h3>
+      <h4>I think that even though I'm just starting out, I can contribute a lot to the company I'll be joining.</h4>
+      <h5>I'm a fast learner and I'm eager to learn new things.</h5>
+      <h6>I believe that my skills and passion for technology will help me succeed in my career.</h6>
+    </div>
 
-  <div class="intro">
-    <h3>I am looking for a job.</h3>
-    <h4>I think that even though I'm just starting out, I can contribute a lot to the company I'll be joining.</h4>
-    <h5>I'm a fast learner and I'm eager to learn new things.</h5>
-    <h6>I believe that my skills and passion for technology will help me succeed in my career.</h6>
+    <div class="card">
+      <h4>My goal is to become a proficient software engineer.</h4>
+    </div>
+
+    <div class="contact">
+      Contact me at <a href="mailto:546rach@gmail.com">546rach@gmail.com</a>
+    </div>
+
+    <footer>
+      © 2025 My Simple Project
+    </footer>
   </div>
-
-  <h4>My goal is to become a proficient software engineer.</h4>
-
-  <div class="contact-info">
-    <p>Contact me at <a href="mailto:546rach@gmail.com">546rach@gmail.com</a></p>
-  </div>
-
-  <div class="footer">
-    <p>Thank you for visiting my page!</p>
-  </div>
-
 </body>
 
 </html>
